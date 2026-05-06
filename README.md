@@ -1,35 +1,3 @@
-# my-first-app
-## Description
-This is my **first** app on streamlit.
-
-`print("This is my first app on streamlit")`
-
----
-
-**Bold text**  
-*Italic text*  
-~~Strikethrough~~
-
----
-
-- Item one
-- Item two
-  - Sub item
-
-1. First
-2. Second
-3. Third
-
----
-
-- [x] Task done
-- [ ] Task not done
-
----
-
-```python
-print("Hello world")
-
 # 🎓 Hello SKKU App
 
 > A simple Streamlit web app to display a greeting message.
@@ -60,3 +28,82 @@ It shows how to build and run a simple web app.
 ### 1. Install
 ```bash
 pip install streamlit
+```
+
+### 2. Run
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📊 Feature Table
+
+| Feature | Description | Status |
+|--------|------------|--------|
+| Title | Show heading | ✅ Done |
+| Text | Show message | ✅ Done |
+| UI | Basic layout | 🟡 In Progress |
+
+---
+
+## ✅ To-Do
+- [x] Create app  
+- [ ] Add more features  
+- [ ] Improve design  
+
+---
+
+## 💻 Code
+```python
+import streamlit as st
+
+st.title("Hello, SKKU!")
+st.write("My first web app")
+```
+
+---
+
+## 📦 Notes
+> 📌 Note  
+> This is a simple practice project.
+
+> ⚠️ Warning  
+> This app has very basic features.
+
+---
+
+## 📁 Project Structure
+```
+project/
+├── app.py
+└── README.md
+```
+
+---
+
+## 🔗 Link
+[Streamlit](https://streamlit.io)
+
+---
+
+## 🖼️ Screenshot
+![screenshot](https://via.placeholder.com/300)
+
+---
+
+## 👤 Author
+- Your Name  
+- Sungkyunkwan University  
+
+---
+
+## 💡 Future Plans
+- Add charts  
+- Add user input  
+- Deploy online  
+
+---
+
+---
+End of README
