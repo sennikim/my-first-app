@@ -1,0 +1,3 @@
+import streamlit as st
+st.title("Hello, SKKU! ")
+st.write("My first web app")
