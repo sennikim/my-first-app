@@ -27,9 +27,5 @@ This is my **first** app on streamlit.
 
 ---
 
-Inline code: `streamlit run app.py`
-
----
-
 ```python
 print("Hello world")
